@@ -1,9 +1,7 @@
-Background Geolocation for Android
+For development, cordova lib is required. You can copy it from any cordova project.
 
-[![CircleCI](https://circleci.com/gh/mauron85/background-geolocation-android/tree/master.svg?style=shield)](https://circleci.com/gh/mauron85/background-geolocation-android/tree/master)
+1. copy content of cordova lib into `CordovaLib`
+2. add `include ':CordovaLib'` into `settings.gradle`
+3. add dependency `compile project(':CordovaLib')` in `plugin/build.grandle`
 
-used by:
-
-* [react-native-background-geolocation](https://github.com/mauron85/react-native-background-geolocation)
-
-* [cordova-plugin-background-geolocation](https://github.com/mauron85/cordova-plugin-background-geolocation)
+For more info visit https://cordova.apache.org/docs/en/2.5.0/guide/getting-started/ios/
