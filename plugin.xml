@@ -125,6 +125,7 @@
 
         <resource-file src="android/common/src/main/res/xml/syncadapter.xml" target="res/xml/syncadapter.xml" />
         <resource-file src="android/common/src/main/res/xml/authenticator.xml" target="res/xml/authenticator.xml" />
+        <resource-file src="android/common/src/main/res/values/strings.xml" target="res/xml/strings.xml" />
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
@@ -188,11 +189,11 @@
             </feature>
         </config-file>
 
-        <config-file target="res/values/strings.xml" parent="/resources">
+        <edit-file target="res/values/strings.xml" parent="/resources" mode="overwrite">
             <string name="mauron85_bgloc_account_name">$ACCOUNT_NAME</string>
             <string name="mauron85_bgloc_account_type">$ACCOUNT_TYPE</string>
             <string name="mauron85_bgloc_content_authority">$CONTENT_AUTHORITY</string>
-        </config-file>
+        </edit-file>
 
         <edit-config file="res/xml/authenticator.xml" target="/*" mode="overwrite">
           <account-authenticator
