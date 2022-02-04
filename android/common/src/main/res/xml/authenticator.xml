@@ -2,6 +2,6 @@
 <account-authenticator
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:accountType="@string/mauron85_bgloc_account_type"
-    android:icon="$ICON"
-    android:smallIcon="$SMALL_ICON"
-    android:label="$ACCOUNT_LABEL"/>
+    android:icon="@string/mauron85_bgloc_icon"
+    android:smallIcon="@string/mauron85_bgloc_small_icon"
+    android:label="@string/mauron85_bgloc_account_label"/>

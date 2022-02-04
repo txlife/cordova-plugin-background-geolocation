@@ -3,4 +3,7 @@
   <string name="mauron85_bgloc_account_name">$ACCOUNT_NAME</string>
   <string name="mauron85_bgloc_account_type">$ACCOUNT_TYPE</string>
   <string name="mauron85_bgloc_content_authority">$CONTENT_AUTHORITY</string>
+  <string name="mauron85_bgloc_account_label">$ACCOUNT_LABEL</string>
+  <string name="mauron85_bgloc_icon">$ICON</string>
+  <string name="mauron85_bgloc_small_icon">$SMALL_ICON</string>
 </resources>
