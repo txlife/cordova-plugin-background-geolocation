@@ -125,7 +125,7 @@
 
         <resource-file src="android/common/src/main/res/xml/syncadapter.xml" target="res/xml/syncadapter.xml" />
         <resource-file src="android/common/src/main/res/xml/authenticator.xml" target="res/xml/authenticator.xml" />
-        <resource-file src="android/common/src/main/res/values/strings.xml" target="res/xml/strings.xml" />
+        <resource-file src="android/common/src/main/res/values/strings.xml" target="res/values/strings.xml" />
 
         <config-file target="AndroidManifest.xml" parent="/manifest/application">
             <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version" />
